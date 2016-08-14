@@ -17,4 +17,5 @@ sort = grocery_list.sort
 puts "Let's sort out that list!:"
 list(sort)
 grocery_list.delete(3)
+puts "Final new and improved list!:"
 list(grocery_list)
