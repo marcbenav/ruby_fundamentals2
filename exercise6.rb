@@ -6,3 +6,9 @@ end
 list(grocery_list)
 
 puts "The list now includes #{grocery_list.length} items"
+
+if grocery_list.include?("bananas")
+  puts "got 'nanas"
+else
+  puts "chill on the 'nanas"
+end
