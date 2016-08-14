@@ -13,3 +13,6 @@ else
   puts "chill on the 'nanas"
 end
 puts "The second item on the list is #{grocery_list[2]}"
+sort = grocery_list.sort
+puts "Let's sort out that list!:"
+list(sort)
