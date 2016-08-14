@@ -6,4 +6,9 @@ students = {
 def attendance(info)
   info.each {|k, v| puts "#{k}: #{v} students"}
 end
-  attendance(students)
+# method to display hash info
+attendance(students)
+
+#Added cohort4 to the hash
+
+students[:cohort4] = "43"
