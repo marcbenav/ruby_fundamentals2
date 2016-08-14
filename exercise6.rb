@@ -12,3 +12,4 @@ if grocery_list.include?("bananas")
 else
   puts "chill on the 'nanas"
 end
+puts "The second item on the list is #{grocery_list[2]}"
