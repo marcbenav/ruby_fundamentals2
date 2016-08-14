@@ -16,3 +16,5 @@ puts "The second item on the list is #{grocery_list[2]}"
 sort = grocery_list.sort
 puts "Let's sort out that list!:"
 list(sort)
+grocery_list.delete(3)
+list(grocery_list)
