@@ -8,7 +8,7 @@ def attendance(info)
 end
 # method to display hash info
 attendance(students)
-
 #Added cohort4 to the hash
-
 students[:cohort4] = "43"
+# use keys method to output key names
+puts students.keys
