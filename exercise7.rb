@@ -22,4 +22,13 @@ puts "***********************"
 def expand(growth)
 growth.each {|k, v| puts "#{k}: #{v * 1.05}"}
 end
+
 expand(students)
+puts "***********************"
+#Delete  cohort2
+students.delete(:cohort2)
+attendance(students)
+puts "***********************"
+#shows values across cohorts
+values = students.values
+puts values.inject(0){|x, y| x + y}
